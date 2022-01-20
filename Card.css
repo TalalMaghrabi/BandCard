@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+body{
+	background-color: #1B262C;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-family: math;
+	font-size: 23px;
+	padding: 7px;
+	margin-right: 20px;
+
+}
+
+p{
+	color: #50D890;
+	font-size: 30px;
+	position: absolute;
+	top: 0px;
+	margin-left: 25px;
+}
+
+.logo-img {
+	position: relative;
+	top: -77px;
+	margin-left: 25px;
+    float: right;
+    width: 5%;
+    padding: 15px;
+}
+
+
+
+
+.img-container{ 
+        text-align: center;
+        display: block;
+        margin-left: 77px;
+ }
+
+
+.button{
+  background-color: #1B262C; /* Green */
+  border: 1px solid #50D890 ;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-right: 95px;
+  width: 25%;
+
+}
+.button1 {
+   background-color: #34BE82;
+  color: white; 
+  border: 1px solid #50D890;
+}
+
+.button1:hover {
+   background-color: #1B262C;
+  color: white;
+}
+
+.button2 {
+  background-color: #34BE82;
+  color: white; 
+  border: 1px solid #50D890;
+}
+
+.button2:hover {
+   background-color: #1B262C;
+  color: white;
+}
+
+.button3 {
+  background-color: #34BE82;
+  color: white; 
+  border: 1px solid #50D890;
+}
+
+.button3:hover {
+  background-color: #1B262C;
+  color: white;
+}
+
+.button4 {
+   background-color: #34BE82;
+  color: white; 
+  border: 1px solid #50D890;
+}
+
+.button4:hover {background-color: #1B262C;}
+
+.button5 {
+  background-color: #34BE82;
+  color: white; 
+  border: 1px solid #50D890;
+}
+.button5:hover {
+  background-color: #1B262C;
+  color: white;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+ 
+ @media (max-width: 600px) {
+     nav,
+     article {
+         width: 100%;
+         height: auto;
+     }
+ }
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+#language-picker-select{
+  position: absolute;
+  bottom: 30px;
+ margin-left: 50px;
+background-color: #1B262C;
+ padding: 15px;
+ border: 2px solid black;
+ color: white;
+  border-radius: 25px;
+
+}
